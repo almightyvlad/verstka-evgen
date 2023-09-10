@@ -15,12 +15,7 @@ export const Header = () => {
                         <img src={LogoKitchen} />
                     </div>
                 </div>
-            </div>
-        </div>
-    )
-}
-
-{/* <div className='content'>
+                <div className='content'>
                     <div className='burger-container'>
                         <div className='burger'>
                             <img src={Burger} />
@@ -34,4 +29,8 @@ export const Header = () => {
                             <div className='text-small header-price'>599₽</div>
                         </div>
                     </div>
-                </div> */}
+                </div>
+            </div>
+        </div>
+    )
+}

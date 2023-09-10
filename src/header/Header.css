@@ -46,15 +46,19 @@
 }
 
 .header-background {
+    
     background: #FFAB08;
-    width: 2880px;
+    /* width: 2880px;
     height: 2880px; 
     border-radius: 2880px;
     margin-right: -720px;
-    margin-left: -720px;
-    transform: translateY(-2414px);
+    margin-left: -720px; */
+    /* transform: translateY(-2414px); */
+    border-bottom-left-radius: 380px;
+    border-bottom-right-radius: 380px;
     z-index: 1;
     overflow: hidden;
+    max-width: 1440px;
 }
 
 .logo-container {
@@ -75,7 +79,9 @@
 
 .content {
     display: inline-flex;
-    width: 784px;
+    justify-content: center;
+    width: 100%;
+    /* width: 784px; */
     height: 326px;
 }
 
@@ -85,6 +91,7 @@
     padding: 26.738px 36.86px 9.314px 35.732px;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 
 .burger {
@@ -98,6 +105,7 @@
     flex-shrink: 0;
     margin-top: 46px;
     margin-left: 21px;
+    z-index: 2;
 }
 
 .text {
