@@ -1,0 +1,130 @@
+@media screen and (max-width: 768px) {
+    .header-container {
+        height: 459px;
+        overflow: hidden;
+    }
+    .logo-background {
+        background: #FFAB08;
+        width: 611px;
+        height: 611px;
+        border-radius: 611px;
+        margin-right: -145px;
+        margin-left: -145px;
+        transform: translateY(-152px);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 998px) {
+    .header-container {
+        height: 349px;
+        overflow: hidden;
+    }
+    .logo-background {
+        background: #FFAB08;
+        width: 2540px;
+        height: 2540px;
+        border-radius: 2540px;
+        margin-right: -886px;
+        margin-left: -886px;
+        transform: translateY(-2191px);
+    }    
+}
+
+@media screen and (min-width: 998px) {
+    .header-container {
+        height: 466px;
+        overflow: hidden;
+    }
+    .logo-background {
+        margin-right: -928px;
+        margin-left: -928px;
+    }
+}
+
+.header-container {
+    height: 466px;
+}
+
+.header-background {
+    background: #FFAB08;
+    width: 2880px;
+    height: 2880px; 
+    border-radius: 2880px;
+    margin-right: -720px;
+    margin-left: -720px;
+    transform: translateY(-2414px);
+    z-index: 1;
+    overflow: hidden;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+
+.logo {
+    width: 114.388px;
+    height: 18.259px;
+}
+
+.logo-kitchen {
+    width: 33.453px;
+    height: 33.296px;
+}
+
+.content {
+    display: inline-flex;
+    width: 784px;
+    height: 326px;
+}
+
+.burger-container {
+    display: flex;
+    width: 326px;
+    padding: 26.738px 36.86px 9.314px 35.732px;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger {
+    width: 253.408px;
+    height: 289.947px;
+}
+
+.text-container {
+    width: 437px;
+    height: 194px;
+    flex-shrink: 0;
+    margin-top: 46px;
+    margin-left: 21px;
+}
+
+.text {
+    color: #FFF;
+    font-family: 'Nunito';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; 
+}
+
+.text-small-container {
+    display: inline-flex;
+    margin-top: 52px;
+}
+
+.text-small {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 2px;
+}
+
+.header-price {
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
